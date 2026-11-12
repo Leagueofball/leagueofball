@@ -7,7 +7,7 @@
   <meta name="description" content="Leagueofball 공식 홈페이지. 다양한 직업과 능력으로 펼치는 1대1 배틀 게임을 만나보세요.">
   <title>Leagueofball — 공식 홈페이지</title>
   <style>
-    :root{--blue:#2868e8;--blue-dark:#1d50bd;--text:#172033;--muted:#667085;--line:#e8edf4;--soft:#f6f8fc}
+    :root{--blue:#2868e8;--blue-dark:#1d50bd;--text:#172033;--muted:#667085;--line:#e8edf4}
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
     body{margin:0;background:#fff;color:var(--text);font-family:Inter,Pretendard,"Noto Sans KR",Arial,sans-serif}
@@ -30,15 +30,13 @@
     section{padding:66px 0;border-top:1px solid var(--line)}
     .section-title{text-align:center;margin:0 0 12px;font-size:29px;letter-spacing:-1px}
     .section-desc{text-align:center;color:var(--muted);font-size:15px;line-height:1.8;margin:0 auto;max-width:620px}
-    .about-panel{margin:30px auto 0;padding:28px;border:1px solid var(--line);border-radius:16px;background:var(--soft);text-align:center;max-width:700px}
-    .about-panel p{margin:0;color:#596579;line-height:1.9;font-size:14px}
     .updates{max-width:700px;margin:30px auto 0;border:1px solid var(--line);border-radius:16px;overflow:hidden}
     .update-row{display:flex;align-items:center;gap:16px;padding:20px 22px}
     .update-tag{flex:none;padding:6px 9px;border-radius:7px;background:#eef4ff;color:var(--blue);font-size:11px;font-weight:800}
     .update-copy strong{display:block;font-size:14px;margin-bottom:5px}
     .update-copy span{font-size:13px;color:var(--muted);line-height:1.6}
     footer{border-top:1px solid var(--line);padding:25px 0;color:#98a2b3;font-size:12px;text-align:center}
-    @media(max-width:600px){header{height:auto;min-height:66px}.nav{padding:16px 0;align-items:flex-start;flex-direction:column;gap:13px}.links{gap:19px;font-size:13px;flex-wrap:wrap}.hero{min-height:510px;padding:72px 0}.lead{font-size:15px}.play{width:min(100%,310px);padding:16px 20px}.section-title{font-size:25px}.update-row{align-items:flex-start;padding:17px}.about-panel{padding:22px}}
+    @media(max-width:600px){header{height:auto;min-height:66px}.nav{padding:16px 0;align-items:flex-start;flex-direction:column;gap:13px}.links{gap:19px;font-size:13px;flex-wrap:wrap}.hero{min-height:510px;padding:72px 0}.lead{font-size:15px}.play{width:min(100%,310px);padding:16px 20px}.section-title{font-size:25px}.update-row{align-items:flex-start;padding:17px}}
   </style>
 </head>
 <body>
@@ -46,7 +44,6 @@
   <div class="wrap nav">
     <a class="brand" href="#home">LEAGUE<span>OF</span>BALL</a>
     <nav class="links" aria-label="주 메뉴">
-      <a href="#about">게임 소개</a>
       <a href="#updates">업데이트 소식</a>
     </nav>
   </div>
@@ -59,16 +56,6 @@
     <a class="play" href="bol-fight.html"><span aria-hidden="true">▶</span> 게임 플레이</a>
     <div class="hint">버튼을 눌러 바로 게임을 시작하세요.</div>
   </div>
-
-  <section id="about">
-    <div class="wrap">
-      <h2 class="section-title">게임 소개</h2>
-      <p class="section-desc">나만의 클래스를 선택하고 상대와 실력을 겨루는 Leagueofball의 세계에 오신 것을 환영합니다.</p>
-      <div class="about-panel">
-        <p>사무라이의 검술, 버서커의 강력한 도끼, 네크로맨서의 소환 마법, 사신의 낫까지!<br>각 클래스의 개성을 살려 나만의 전투 방식을 만들어 보세요.</p>
-      </div>
-    </div>
-  </section>
 
   <section id="updates">
     <div class="wrap">
